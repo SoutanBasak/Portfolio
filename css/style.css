@@ -453,8 +453,8 @@
 
 /* Image simplified to match card size */
 .project-card img {
-  width: 60px;              /* small icon instead of big image */
-  height: 60px;
+  width: 100px;              /* small icon instead of big image */
+  height: 100px;
   object-fit: contain;
   margin: 0 auto 15px;
 }
