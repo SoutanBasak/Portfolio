@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact - Soutan Basak</title>
+  <meta name="description" content="Get in touch with Soutan Basak for freelance business application development or full-time opportunities.">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <!-- Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -21,6 +23,7 @@
       border-radius: 8px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.2);
       font-size: 14px;
+      font-family: var(--font-body);
       opacity: 0;
       transition: all 0.5s ease;
       z-index: 1000;
@@ -29,17 +32,14 @@
       right: 20px; /* slide in */
       opacity: 1;
     }
-    #status.success { background: #28a745; } /* green */
-    #status.error { background: #dc3545; }   /* red */
-    #status.warning { background: #ffc107; color: #333; } /* yellow */
   </style>
 </head>
 
 <!-- Floating WhatsApp Button -->
-<a href="https://wa.me/919046759988" class="whatsapp-float" target="_blank">
+<a href="https://wa.me/919046759988" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
   <i class="fab fa-whatsapp"></i>
 </a>
-  
+
 <body>
 
   <!-- Navbar -->
@@ -49,6 +49,7 @@
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
     </nav>
@@ -56,8 +57,9 @@
 
   <!-- Contact Section -->
   <section class="contact-section">
+    <p class="eyebrow">Let's Work Together</p>
     <h2>Contact Me</h2>
-    <p class="contact-intro">Let’s connect! Whether you want to collaborate, hire me, or just say hi.</p>
+    <p class="contact-intro">Freelance project or full-time opportunity — either way, let's connect.</p>
 
     <div class="contact-container">
 
@@ -82,8 +84,8 @@
 
         <!-- Google Map -->
         <div class="map-container">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29463.764!2d88.3639!3d22.5726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277123456789%3A0!2sKolkata!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29463.764!2d88.3639!3d22.5726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277123456789%3A0!2sKolkata!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
             width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
           </iframe>
         </div>
@@ -93,8 +95,8 @@
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Soutan Basak | 
-      <a href="https://github.com/SoutanBasak" target="_blank">GitHub</a> | 
+    <p>&copy; 2026 Soutan Basak |
+      <a href="https://github.com/SoutanBasak" target="_blank">GitHub</a> |
       <a href="https://linkedin.com/in/soutanbasak" target="_blank">LinkedIn</a>
     </p>
   </footer>

@@ -3,17 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy Business CRM | Portfolio</title>
+  <title>Happy Business CRM | Soutan Basak</title>
+  <meta name="description" content="A CRM system built for small and medium businesses to manage leads, clients, sales pipelines, and support tickets.">
+
   <link rel="stylesheet" href="../css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-  <!-- Header / Back Button -->
-  <header class="header">
+  <!-- Minimal header — just a link back to the projects list -->
+  <header class="detail-header">
     <div class="container">
-      <a href="../index.html" class="back-link">← Back to Portfolio</a>
+      <a href="../projects.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Projects</a>
     </div>
   </header>
 
@@ -21,12 +24,14 @@
   <main class="section">
     <div class="container project-detail">
 
-      <!-- Project Title -->
       <h1>Happy Business CRM</h1>
 
-      <!-- Project Description -->
+      <div class="project-tags" style="margin-bottom:20px;">
+        <span>VB.NET</span><span>SQL Server</span><span>WinForms</span><span>Crystal Reports</span>
+      </div>
+
       <p class="project-desc">
-        A customer relationship management (CRM) system developed to help small and medium businesses 
+        A customer relationship management (CRM) system developed to help small and medium businesses
         manage leads, clients, sales pipelines, and support tickets in a streamlined way.
       </p>
 
@@ -55,19 +60,27 @@
       <!-- Technologies -->
       <section>
         <h2>Technologies Used</h2>
-        <p>VB.NET, MS SQL Server, Windows Forms, Crystal Reports, File I/O, Excel Import and Export, SMTP (Previous version created in Python and Sqlite) </p>
+        <p>VB.NET, MS SQL Server, Windows Forms, Crystal Reports, File I/O, Excel Import and Export, SMTP (previous version created in Python and SQLite).</p>
       </section>
 
       <!-- Challenges / Learnings -->
       <section>
-        <h2>Challenges & Learnings</h2>
-        <p>Faced challenges in designing scalable database relationships and ensuring smooth 
-        performance with growing client records. Learned database optimization, transaction 
+        <h2>Challenges &amp; Learnings</h2>
+        <p>Faced challenges in designing scalable database relationships and ensuring smooth
+        performance with growing client records. Learned database optimization, transaction
         management, and how to implement role-based access control effectively.</p>
       </section>
 
     </div>
   </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Soutan Basak |
+      <a href="https://github.com/SoutanBasak" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/soutanbasak" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
 
 </body>
 </html>

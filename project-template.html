@@ -3,57 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Name | Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-100 text-gray-800">
 
-  <!-- Header / Back Button -->
-  <header class="bg-white shadow p-4">
-    <a href="../index.html" class="text-blue-500 hover:underline">← Back to Portfolio</a>
+  <!-- 1. Update the title and description below -->
+  <title>[Project Name] | Soutan Basak</title>
+  <meta name="description" content="[One-sentence summary of the project for search engines.]">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Minimal header — just a link back to the projects list -->
+  <header class="detail-header">
+    <div class="container">
+      <a href="../projects.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+    </div>
   </header>
 
   <!-- Project Content -->
-  <main class="max-w-5xl mx-auto p-6">
+  <main class="section">
+    <div class="container project-detail">
 
-    <!-- Project Title -->
-    <h1 class="text-4xl font-bold mb-4">Project Name</h1>
+      <!-- 2. Project title -->
+      <h1>[Project Name]</h1>
 
-    <!-- Project Description -->
-    <p class="mb-6 text-lg">A brief description of the project, the problem it solves, and your role in it.</p>
-
-    <!-- Features -->
-    <section class="mb-6">
-      <h2 class="text-2xl font-semibold mb-2">Features</h2>
-      <ul class="list-disc ml-6">
-        <li>Feature 1</li>
-        <li>Feature 2</li>
-        <li>Feature 3</li>
-      </ul>
-    </section>
-
-    <!-- Screenshots -->
-    <section class="mb-6">
-      <h2 class="text-2xl font-semibold mb-2">Screenshots / Demo</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <img src="screenshots/example1.png" alt="Screenshot 1" class="rounded shadow">
-        <img src="screenshots/example2.png" alt="Screenshot 2" class="rounded shadow">
+      <!-- 3. Tech stack tags — copy/paste <span> tags, one per technology -->
+      <div class="project-tags" style="margin-bottom:20px;">
+        <span>Tech 1</span><span>Tech 2</span><span>Tech 3</span>
       </div>
-    </section>
 
-    <!-- Technologies -->
-    <section class="mb-6">
-      <h2 class="text-2xl font-semibold mb-2">Technologies Used</h2>
-      <p>VB.NET, MS SQL, Windows Forms, etc.</p>
-    </section>
+      <!-- 4. One or two sentence summary -->
+      <p class="project-desc">
+        [Two or three sentences: what the project is, who it's for, and the core problem it solves.]
+      </p>
 
-    <!-- Challenges / Learnings -->
-    <section>
-      <h2 class="text-2xl font-semibold mb-2">Challenges & Learnings</h2>
-      <p>Explain any difficulties you faced and what you learned while building this project.</p>
-    </section>
+      <!-- 5. Features — bullet the concrete capabilities -->
+      <section>
+        <h2>Features</h2>
+        <ul>
+          <li>[Feature one]</li>
+          <li>[Feature two]</li>
+          <li>[Feature three]</li>
+        </ul>
+      </section>
 
+      <!-- 6. Screenshots — add or remove <img> tags as needed. Delete this whole
+           <section> if you don't have screenshots for this project yet. -->
+      <section>
+        <h2>Screenshots</h2>
+        <div class="screenshot-grid">
+          <img src="../images/project-placeholder-1.png" alt="[Describe this screenshot]">
+          <img src="../images/project-placeholder-2.png" alt="[Describe this screenshot]">
+        </div>
+      </section>
+
+      <!-- 7. Technologies used — a plain-language sentence is fine here -->
+      <section>
+        <h2>Technologies Used</h2>
+        <p>[List the languages, frameworks, databases, and tools involved.]</p>
+      </section>
+
+      <!-- 8. Challenges & learnings — what was hard, what you learned solving it -->
+      <section>
+        <h2>Challenges &amp; Learnings</h2>
+        <p>[What was technically or logistically hard about this project, and what you learned or would do differently.]</p>
+      </section>
+
+    </div>
   </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Soutan Basak |
+      <a href="https://github.com/SoutanBasak" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/soutanbasak" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
 
 </body>
 </html>
