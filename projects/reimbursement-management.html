@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DYNA SORT &ndash; File &amp; Folder Sorting App | Soutan Basak</title>
-  <meta name="description" content="A VB.NET desktop utility that automatically organizes files and folders based on type, extension, or custom rules.">
+  <title>Reimbursement Management System | Soutan Basak</title>
+  <meta name="description" content="A VB.NET and SQL Server application for submitting, approving, and tracking employee reimbursement claims.">
 
   <link rel="stylesheet" href="../css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,25 +24,26 @@
   <main class="section">
     <div class="container project-detail">
 
-      <h1>DYNA SORT &ndash; File &amp; Folder Sorting App</h1>
+      <h1>Reimbursement Management System</h1>
 
       <div class="project-tags" style="margin-bottom:20px;">
-        <span>VB.NET</span><span>WinForms</span><span>File I/O</span>
+        <span>VB.NET</span><span>SQL Server</span><span>WinForms</span>
       </div>
 
       <p class="project-desc">
-        A VB.NET desktop utility that automatically organizes files and folders based on type, extension, or custom rules, improving desktop and document management efficiency.
+        <!-- TODO: refine this framing in your own words -->
+        A desktop application for managing employee reimbursement claims end to end — submission, approval workflow, and payout tracking — backed by SQL Server.
       </p>
 
       <!-- Features -->
       <section>
         <h2>Features</h2>
         <ul>
-          <li>Sort files by type (Documents, Images, Videos, etc.)</li>
-          <li>Custom rules for extensions and naming</li>
-          <li>Auto-create folders dynamically</li>
-          <li>Batch sorting with one click</li>
-          <li>Lightweight and fast performance</li>
+          <!-- TODO: confirm/expand these — drafted from your description -->
+          <li>Employee reimbursement claim submission with supporting details</li>
+          <li>Approval workflow with status tracking</li>
+          <li>Claim history and payout records per employee</li>
+          <li>Reports on pending, approved, and settled claims</li>
         </ul>
       </section>
 
@@ -50,20 +51,24 @@
       <section>
         <h2>Screenshots</h2>
         <div class="screenshot-grid">
-          <img src="../images/project8.png" alt="DYNA SORT Main UI">
+          <!-- Add or remove <img> tags to match however many screenshots you have -->
+          <img src="../images/reimbursement-1.png" alt="Reimbursement screenshot 1">
+          <img src="../images/reimbursement-2.png" alt="Reimbursement screenshot 2">
         </div>
       </section>
 
       <!-- Technologies -->
       <section>
         <h2>Technologies Used</h2>
-        <p>VB.NET, Windows Forms, File I/O API</p>
+        <p>VB.NET, MS SQL Server, Windows Forms</p>
       </section>
 
       <!-- Challenges / Learnings -->
       <section>
         <h2>Challenges &amp; Learnings</h2>
-        <p>Faced issues handling file conflicts and ensuring files weren&rsquo;t duplicated or lost. Learned how to manage file I/O operations safely, implement error handling, and create user-friendly settings for custom rules.</p>
+        <p>
+          The main challenge was modeling a clean approval workflow (submitted → approved/rejected → settled) in the database while keeping the UI simple enough for non-finance staff to use without training.
+        </p>
       </section>
 
     </div>

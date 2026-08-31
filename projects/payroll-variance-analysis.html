@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payroll Variance Analysis Engine | Soutan Basak</title>
+  <meta name="description" content="A metadata-driven VB.NET and SQL Server system for automatic payroll variance analysis and summary reporting.">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Minimal header — just a link back to the projects list -->
+  <header class="detail-header">
+    <div class="container">
+      <a href="../projects.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+    </div>
+  </header>
+
+  <!-- Project Content -->
+  <main class="section">
+    <div class="container project-detail">
+
+      <h1>Payroll Variance Analysis Engine</h1>
+
+      <div class="project-tags" style="margin-bottom:20px;">
+        <span>VB.NET</span><span>SQL Server</span><span>NPOI / Excel</span>
+      </div>
+
+      <p class="project-desc">
+        <!-- TODO: refine this framing in your own words -->
+        A payroll variance analysis system that compares payroll runs to catch swings before they reach a payslip. Built around a metadata-driven dynamic SQL stored procedure (sp_GeneratePayrollVariance) paired with a VB.NET desktop application (EmpVariance.vb) for review and reporting.
+      </p>
+
+      <!-- Features -->
+      <section>
+        <h2>Features</h2>
+        <ul>
+          <!-- TODO: confirm/expand these — drafted from your description -->
+          <li>Metadata-driven dynamic SQL for flexible variance comparisons across payroll periods</li>
+          <li>Attendance-stability logic using Days Worked and LOP (loss-of-pay) tracking</li>
+          <li>Automatic arrear detection between payroll runs</li>
+          <li>Remark-tag system to flag and categorize variance causes</li>
+          <li>Optional top-N variance result sets to surface the biggest movers</li>
+          <li>Three NPOI-based themed Excel exporters — top movements, new joiners, and exits</li>
+        </ul>
+      </section>
+
+      <!-- Screenshots -->
+      <section>
+        <h2>Screenshots</h2>
+        <div class="screenshot-grid">
+          <!-- Add or remove <img> tags to match however many screenshots you have -->
+          <img src="../images/payroll-variance-1.png" alt="Payroll Variance screenshot 1">
+          <img src="../images/payroll-variance-2.png" alt="Payroll Variance screenshot 2">
+          <img src="../images/payroll-variance-3.png" alt="Payroll Variance screenshot 3">
+          <img src="../images/payroll-variance-4.png" alt="Payroll Variance screenshot 4">
+        </div>
+      </section>
+
+      <!-- Technologies -->
+      <section>
+        <h2>Technologies Used</h2>
+        <p>VB.NET (EmpVariance.vb), MS SQL Server (sp_GeneratePayrollVariance stored procedure), NPOI for themed Excel report generation</p>
+      </section>
+
+      <!-- Challenges / Learnings -->
+      <section>
+        <h2>Challenges &amp; Learnings</h2>
+        <p>
+          <!-- TODO: swap in your own account of what was actually hard -->
+          The hardest part was making the customised excel report formats, which client wanted.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Soutan Basak |
+      <a href="https://github.com/SoutanBasak" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/soutanbasak" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+
+</body>
+</html>

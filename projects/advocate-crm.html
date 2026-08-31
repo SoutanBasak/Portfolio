@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advocate CRM | Soutan Basak</title>
+  <meta name="description" content="A full-stack client and case management application for a law firm, built with Next.js, Supabase, and Prisma.">
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Minimal header — just a link back to the projects list -->
+  <header class="detail-header">
+    <div class="container">
+      <a href="../projects.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+    </div>
+  </header>
+
+  <!-- Project Content -->
+  <main class="section">
+    <div class="container project-detail">
+
+      <h1>Advocate CRM</h1>
+
+      <div class="project-tags" style="margin-bottom:20px;">
+        <span>Next.js</span><span>Supabase</span><span>Prisma</span><span>PostgreSQL</span><span>Vercel</span>
+      </div>
+
+      <p class="project-desc">
+        <!-- TODO: refine this if you'd like a different framing -->
+        A full-stack client and case management application built for a law firm, covering
+        appointments, billing, hearings, and role-based authentication. This is my flagship
+        full-stack project — the point where I moved from desktop/Apps Script development into
+        a proper modern web stack.
+      </p>
+
+      <!-- Features -->
+      <section>
+        <h2>Features</h2>
+        <ul>
+          <!-- TODO: confirm/expand these — filled in from what I know of the project -->
+          <li>Client and case record management</li>
+          <li>Appointment scheduling and hearing tracking</li>
+          <li>Billing and invoicing for client matters</li>
+          <li>Role-based authentication for different firm staff</li>
+          <li>PostgreSQL data layer via Supabase, managed with Prisma ORM</li>
+        </ul>
+      </section>
+
+      <!-- Screenshots -->
+      <section>
+        <h2>Screenshots</h2>
+        <div class="screenshot-grid">
+          <!-- Replace these with your actual filenames once you add the images to /images -->
+          <img src="../images/advocate-crm-1.png" alt="Advocate CRM dashboard">
+          <img src="../images/advocate-crm-2.png" alt="Advocate CRM appointments view">
+          <img src="../images/advocate-crm-3.png" alt="Advocate CRM billing view">
+          <img src="../images/advocate-crm-4.png" alt="Advocate CRM case management view">
+          <img src="../images/advocate-crm-5.png" alt="Advocate CRM hearings view">
+          <img src="../images/advocate-crm-6.png" alt="Advocate CRM login and authentication">
+        </div>
+      </section>
+
+      <!-- Technologies -->
+      <section>
+        <h2>Technologies Used</h2>
+        <p>Next.js, Supabase (PostgreSQL), Prisma ORM, Vercel deployment. Rebuilt from an earlier version originally built on Google Sheets and Apps Script (AdvocateDB, appointments, quotations, invoices) with URL-parameter-based session management and multi-page routing.</p>
+      </section>
+
+      <!-- Challenges / Learnings -->
+      <section>
+        <h2>Challenges &amp; Learnings</h2>
+        <p>
+          <!-- TODO: this is a placeholder — swap in your own account of what was actually hard -->
+          The main challenge was mapping concepts from the original Apps Script prototype — session
+          management via URL parameters, multi-page routing, a flat Sheets-based data model — onto a
+          proper full-stack architecture. Learned how Next.js routing, Supabase auth, and a
+          Prisma-modeled PostgreSQL schema replace those patterns, and how to structure role-based
+          access control in a web app rather than a spreadsheet.
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Soutan Basak |
+      <a href="https://github.com/SoutanBasak" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/soutanbasak" target="_blank">LinkedIn</a>
+    </p>
+  </footer>
+
+</body>
+</html>
